@@ -1,0 +1,235 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 126px 28px;
+    background-color: #fff9f1;
+
+    @media (max-width: 834px){
+        padding-block: 150px 60px;
+        padding-inline: 32px;
+    }
+
+    @media (max-width: 480px){
+        padding-block: 127px 28px;
+        padding-inline: 24px;
+    }
+}
+
+.form_container{
+    width: 66.67vw;
+    min-height: fit-content;
+    border-radius: 14px;
+    display: flex;
+    background-color: white;
+
+    @media (max-width: 834px){
+        width: 100%;
+    }
+}
+
+.left{
+    width: 60%;
+    padding: 28px 24px;
+
+    @media (max-width: 834px){
+        width: 100%;
+        padding-block: 62px 36.62px;
+        padding-inline: 75px;
+    }
+
+    @media (max-width: 480px){
+        width: 100%;
+        padding: 28px;
+    }
+}
+
+.heading{
+    margin: 0;
+    margin-bottom: 14px;
+    color: #4C4D4F;
+    font-family: Cabin;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    @media (max-width: 834px){
+        font-size: 44.211px;
+        margin-bottom: 17.52px;
+    }
+
+    @media (max-width: 480px){
+        font-size: 30px;
+        line-height: 51px;
+        margin-bottom: 14px;
+    }
+}
+
+.subheading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 39px;
+
+    @media (max-width: 834px ){
+        margin-bottom: 40.92px;
+    }
+
+    @media (max-width: 480px){
+        margin-bottom: 32px;
+    }
+} 
+
+.already{
+    margin-right: 4px;
+    color: rgba(76, 77, 79, 0.50);
+    font-family: PT Serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        font-size: 18.204px;
+    }
+}
+
+.login_link{
+    color: #4C4D4F;
+    font-family: PT Serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration-line: underline;
+    cursor: pointer;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        font-size: 18.204px;
+        line-height: 27.307px;
+    }
+}
+
+.bottom {
+    padding-inline: 16px 40px;
+    
+    @media (max-width: 834px) {
+        padding-inline: 0;
+    }
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form > :not(:last-child) {
+    margin-bottom: 32px;
+    
+    @media (max-width: 834px ) and (min-width: 481px){
+        margin-bottom: 35.92px;
+    }
+}
+
+.subs_container{
+    display: flex;
+    align-items: flex-end;
+    margin-block: 32px 24px;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        margin-block: 35.92px 27.46px;
+    }
+}
+
+.subs_container > :first-child {
+    margin-right: 9px;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        margin-right: 10.3px;
+    }
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    cursor: pointer;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        width: 26px;
+        height: 26px;
+    }
+}
+
+.subscribe {
+    color: #4C4D4F;
+    font-size: 12px;
+    font-family: PT Serif;
+    line-height: 150%;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        font-size: 15.604px;
+        line-height: 27.307px;
+    }
+}
+
+.terms{
+    color: rgba(76, 77, 79, 0.50);
+    font-family: PT Serif;
+    font-size: 12px;
+    line-height: 175%;
+    margin-bottom: 14px;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        font-size: 15.604px;
+        margin-bottom: 15.04px;
+    }  
+}
+
+.underline {
+    color: #4C4D4F;
+    font-family: PT Serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration-line: underline;
+    cursor: pointer;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        font-size: 15.604px;
+        line-height: 27.307px;
+    }
+}
+
+.center_align{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+
+.center_align > :first-child {
+    margin-right: 2px;
+}
+
+.right{
+    width: 40%;
+    border-radius: 0px 14px 14px 0px;
+    background: url('../../../assets/register.jfif'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    @media (max-width: 834px){
+        display: none;
+    }
+}
+
+.sc_logo{
+    width: 38.54%;
+    aspect-ratio: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

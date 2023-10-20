@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 21px;
+    position: fixed;
+    background-color: white;
+    z-index: 5;
+    
+    @media (max-width: 834px ) and (min-width: 481px){
+        padding-block: 30px;
+    }
+}
+
+.image{
+    width: 280px;
+    height: 37px;
+    object-fit: cover;
+}

@@ -1,0 +1,23 @@
+
+.submit_button{
+    width: 100%;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    font-family: Cabin;
+    background-color: black;
+    margin-bottom: 8px;
+    cursor: pointer;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        height: 62.415px;
+        border-radius: 31.207px;
+        font-size: 18.204px;
+        margin-bottom: 10.4px;
+    }
+}
+
+.submit_button:hover{
+    background-color: #141414;
+}
