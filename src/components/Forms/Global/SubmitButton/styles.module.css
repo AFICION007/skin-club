@@ -18,6 +18,15 @@
     }
 }
 
+.page_not_found{
+    @media (max-width: 834px ) and (min-width: 481px){
+        height: 48px;
+        border-radius: 24px;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+}
+
 .submit_button:hover{
     background-color: #141414;
 }
