@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/skin-club/static/css/main.57f6bd89.css",
+    "main.js": "/skin-club/static/js/main.66c8468a.js",
+    "static/media/login.png": "/skin-club/static/media/login.071d650fdf1d50e634e9.png",
+    "static/media/forgot-password.png": "/skin-club/static/media/forgot-password.1b04c2e496e2a20814b7.png",
+    "static/media/register.jfif": "/skin-club/static/media/register.53be0c8fd3f0da9924de.jfif",
+    "static/media/sc_logo.png": "/skin-club/static/media/sc_logo.55b2ba6a60adb388f040.png",
+    "static/media/skinclub.png": "/skin-club/static/media/skinclub.e2ce72ed2911339b8735.png",
+    "static/media/top-left.svg": "/skin-club/static/media/top-left.eb5fc328d505ebc38bccfccea85096a0.svg",
+    "static/media/bottom-right.svg": "/skin-club/static/media/bottom-right.a406ca603b2e642c53ab598fa19b8f68.svg",
+    "static/media/google.svg": "/skin-club/static/media/google.9686c1e3e777fb7a9c0e36f765d28507.svg",
+    "static/media/facebook.svg": "/skin-club/static/media/facebook.7160601bce772b4a22fafe79a6d12cde.svg",
+    "static/media/twitter.svg": "/skin-club/static/media/twitter.1b3b9bb610765531c25fe450a2fc9ec2.svg",
+    "static/media/bottom-left.svg": "/skin-club/static/media/bottom-left.890b281d2d449ca94b0e827a2a224459.svg",
+    "static/media/top-right.svg": "/skin-club/static/media/top-right.db7e5eaf9f2d7ac63318442f8318adc4.svg",
+    "index.html": "/skin-club/index.html",
+    "main.57f6bd89.css.map": "/skin-club/static/css/main.57f6bd89.css.map",
+    "main.66c8468a.js.map": "/skin-club/static/js/main.66c8468a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57f6bd89.css",
+    "static/js/main.66c8468a.js"
+  ]
+}
