@@ -124,7 +124,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 175%;
-    text-decoration-line: underline;cursor: pointer;
+    text-decoration-line: underline;
+    cursor: pointer;
 
     @media (max-width: 834px) and (min-width: 481px){
         font-size: 14.975px;

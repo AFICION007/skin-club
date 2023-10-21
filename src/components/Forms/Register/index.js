@@ -13,10 +13,30 @@ import SClogo from "../../../assets/sc_logo.png";
 
 const Register = () => {
 	const formControls = [
-		{ label: "First Name", placeholder: "Jane", className: "half" },
-		{ label: "Last Name", placeholder: "Doe", className: "half" },
-		{ label: "Email", placeholder: "Jane@gmail.com", className: "full" },
-		{ label: "Password", placeholder: "******", className: "full" },
+		{
+			label: "First Name",
+			placeholder: "Jane",
+			type: "text",
+			className: "half",
+		},
+		{
+			label: "Last Name",
+			placeholder: "Doe",
+			type: "text",
+			className: "half",
+		},
+		{
+			label: "Email",
+			placeholder: "Jane@gmail.com",
+			type: "email",
+			className: "full",
+		},
+		{
+			label: "Password",
+			placeholder: "******",
+			type: "password",
+			className: "full",
+		},
 	];
 
 	return (
@@ -45,10 +65,16 @@ const Register = () => {
 						<div className={styles.bottom}>
 							<div className={styles.form}>
 								{formControls.map(
-									({ label, placeholder, className }) => (
+									({
+										label,
+										placeholder,
+										type,
+										className,
+									}) => (
 										<FormGroup
 											label={label}
 											placeholder={placeholder}
+											type={type}
 											className={className}
 										/>
 									)

@@ -13,8 +13,18 @@ import SClogo from "../../../assets/sc_logo.png";
 
 const Register = () => {
 	const formControls = [
-		{ label: "Email", placeholder: "Jane@gmail.com", className: "full" },
-		{ label: "Password", placeholder: "******", className: "full" },
+		{
+			label: "Email",
+			placeholder: "Jane@gmail.com",
+			type: "email",
+			className: "full",
+		},
+		{
+			label: "Password",
+			placeholder: "******",
+			type: "password",
+			className: "full",
+		},
 	];
 
 	return (
@@ -39,19 +49,27 @@ const Register = () => {
 							</div>
 							<div className={styles.form}>
 								{formControls.map(
-									({ label, placeholder, className }) => (
+									({
+										label,
+										placeholder,
+										type,
+										className,
+									}) => (
 										<FormGroup
 											label={label}
 											placeholder={placeholder}
+											type={type}
 											className={className}
 										/>
 									)
 								)}
 							</div>
 							<div className={styles.forgot}>
-								<span className={styles.forgot_underline}>
-									Forgot your password
-								</span>
+								<Link to="/forgot-password">
+									<span className={styles.forgot_underline}>
+										Forgot your password
+									</span>
+								</Link>
 							</div>
 							<div className={styles.subs_container}>
 								<input

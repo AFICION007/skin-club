@@ -79,7 +79,7 @@
 
 .already{
     margin-right: 4px;
-    color: rgba(76, 77, 79, 0.50);
+    color: #A5A6A7;
     font-family: PT Serif;
     font-size: 14px;
     font-style: normal;
@@ -126,7 +126,7 @@
 }
 
 .forgot_underline {
-    color: rgba(76, 77, 79, 0.50);
+    color: #A5A6A7;
     font-family: Cabin;
     font-size: 12px;
     font-style: normal;
@@ -188,7 +188,7 @@
 
 
 .terms{
-    color: rgba(76, 77, 79, 0.50);
+    color: #A5A6A7;
     font-family: PT Serif;
     font-size: 12px;
     line-height: 175%;

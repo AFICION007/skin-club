@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 
-const LineOr = ({ className }) => {
+const LineOr = ({ className = "" }) => {
 	return (
 		<div className={`${styles.or} ${styles[className]}`}>
 			<div className={styles.hr} />
