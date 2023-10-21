@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skin-club/static/css/main.57f6bd89.css",
-    "main.js": "/skin-club/static/js/main.66c8468a.js",
+    "main.js": "/skin-club/static/js/main.3a7789fc.js",
     "static/media/login.png": "/skin-club/static/media/login.071d650fdf1d50e634e9.png",
     "static/media/forgot-password.png": "/skin-club/static/media/forgot-password.1b04c2e496e2a20814b7.png",
     "static/media/register.jfif": "/skin-club/static/media/register.53be0c8fd3f0da9924de.jfif",
@@ -16,10 +16,10 @@
     "static/media/top-right.svg": "/skin-club/static/media/top-right.db7e5eaf9f2d7ac63318442f8318adc4.svg",
     "index.html": "/skin-club/index.html",
     "main.57f6bd89.css.map": "/skin-club/static/css/main.57f6bd89.css.map",
-    "main.66c8468a.js.map": "/skin-club/static/js/main.66c8468a.js.map"
+    "main.3a7789fc.js.map": "/skin-club/static/js/main.3a7789fc.js.map"
   },
   "entrypoints": [
     "static/css/main.57f6bd89.css",
-    "static/js/main.66c8468a.js"
+    "static/js/main.3a7789fc.js"
   ]
 }
