@@ -1,0 +1,258 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 126px 28px;
+    background-color: #fff9f1;
+
+    @media (max-width: 834px){
+        padding-block: 150px 60px;
+        padding-inline: 32px;
+    }
+
+    @media (max-width: 480px){
+        padding-block: 127px 28px;
+        padding-inline: 24px;
+    }
+}
+
+.form_container{
+    width: 66.67vw;
+    min-height: fit-content;
+    border-radius: 14px;
+    display: flex;
+    background-color: white;
+
+    @media (max-width: 834px){
+        width: 100%;
+    }
+}
+
+.left{
+    width: 60%;
+    padding-block: 28px 26px;
+    padding-inline: 40px 64px;
+
+    @media (max-width: 834px){
+        width: 100%;
+        padding-block: 62px 82px;
+        padding-inline: 75px 81.25px;
+    }
+
+    @media (max-width: 480px){
+        width: 100%;
+        padding: 28px;
+    }
+}
+
+.heading{
+    margin: 0;
+    color: #4C4D4F;
+    font-family: Cabin;
+    font-size: 34px;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 14px;
+    
+    @media (max-width: 834px){
+        font-size: 44.211px;
+        margin-bottom: 17.52px;
+    }
+
+    @media (max-width: 480px){
+        font-size: 30px;
+        line-height: 51px;
+        margin-bottom: 14px;
+    }
+}
+
+.subheading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    
+    @media (max-width: 834px ) and (min-width: 481px){
+        margin-bottom: 40.92px;
+    }
+} 
+
+.already{
+    margin-right: 4px;
+    color: #A5A6A7;
+    font-family: PT Serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    
+    @media (max-width: 834px ) and (min-width: 481px){
+        font-size: 18.204px;
+    }
+}
+
+.login_link{
+    color: #4C4D4F;
+    font-family: PT Serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration-line: underline;
+    cursor: pointer;
+    
+    @media (max-width: 834px ) and (min-width: 481px){
+        font-size: 18.204px;
+        line-height: 27.307px;
+    }
+}
+
+.form > :not(:last-child) {
+    margin-bottom: 32px;
+    
+    @media (max-width: 834px ) and (min-width: 481px){
+        margin-bottom: 41.42px;
+    }
+}
+
+.forgot{
+    display: flex;
+    justify-content: flex-end;
+    margin-block: 20px;
+    
+    @media (max-width: 834px ) and (min-width: 481px){
+        margin-block: 25.81px;
+    }
+}
+
+.forgot_underline {
+    color: #A5A6A7;
+    font-family: Cabin;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.333%;
+    text-decoration-line: underline;
+    cursor: pointer;
+    
+    @media (max-width: 834px ) and (min-width: 481px){
+        font-size: 15.604px;
+    }
+}
+
+.subs_container{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 24px;
+    
+    @media (max-width: 834px){
+        margin-bottom: 31.81px;
+    }
+
+    @media (max-width: 480px){
+        margin-bottom: 59px;
+    }
+}
+
+.subs_container > :first-child {
+    margin-right: 9px;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        margin-right: 11.6px;
+    }
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    cursor: pointer;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        width: 26px;
+        height: 26px;
+    }
+}
+
+.subscribe {
+    color: #4C4D4F;
+    font-size: 12px;
+    font-family: PT Serif;
+    line-height: 150%;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        font-size: 15.604px;
+        line-height: 27.307px;
+    }
+}
+
+
+.terms{
+    color: #A5A6A7;
+    font-family: PT Serif;
+    font-size: 12px;
+    line-height: 175%;
+    margin-bottom: 14px;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        font-size: 15.604px;
+    }   
+}
+
+.underline {
+    color: #4C4D4F;
+    font-family: PT Serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration-line: underline;
+    margin-inline: 4px;
+    cursor: pointer;
+
+    @media (max-width: 834px ) and (min-width: 481px){
+        font-size: 15.604px;
+        line-height: 27.307px;
+    }
+}
+
+.center_align{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.bottom {
+    padding-right: 4px;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (max-width: 834px){
+    }
+
+    @media (max-width: 480px){
+    }
+}
+
+
+.right{
+    width: 40%;
+    border-radius: 0px 14px 14px 0px;
+    background: url('../../../../assets/login.png'), lightgray;
+    background-position: -364.162px 0px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    position: relative;
+
+    @media (max-width: 834px){
+        display: none;
+    }
+}
+
+.sc_logo{
+    width: 38.54%;
+    aspect-ratio: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
